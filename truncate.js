@@ -12,7 +12,7 @@
 // 5. Add an additional String item to the Array to put an ellipses in: "..."
 // 6. Use the join() function to convert the Array back into a String
 // 7. Return the truncated String from the Function
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
 // This portion of the script is meant to call and display the result of your Function.
 // You do not need to change the following lines, but you may change them if you
 // are experimenting further or pursuing stretch goals.
