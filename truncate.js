@@ -16,13 +16,13 @@ var wordLimit = 8;
 var shortText = truncateWords(originalText, wordLimit);
 console.log('originalText: ' + originalText);
 console.log('shortText: ' + shortText);
-var outputText = "////////stretch goals go here: //////////"
+var outputText = "////////stretch goals start here: //////////"
 console.log(outputText);
-outputText = "original text (stretch goals): " + originalText;
-console.log(outputText);
-outputText = "Length of original the text is: " + originalText.split(" ").length;
-console.log(outputText);
-outputText = "The number of words to use is: " + wordLimit;
-console.log(outputText);
-outputText = "Here's the string that will be used: " + shortText;
+outputText = "original text: " + originalText;
+//console.log(outputText);
+outputText = outputText + "Length of the original text is: " + originalText.split(" ").length;
+//console.log(outputText);
+outputText = outputText + "The number of words to use is: " + wordLimit;
+//console.log(outputText);
+outputText = outputText + "Here's the string that will be used: " + shortText;
 console.log(outputText);
