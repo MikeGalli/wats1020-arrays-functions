@@ -16,7 +16,9 @@ var wordLimit = 8;
 var shortText = truncateWords(originalText, wordLimit);
 console.log('originalText: ' + originalText);
 console.log('shortText: ' + shortText);
-var outputText = "original text (stretch goals): " + originalText;
+var outputText = "////////stretch goals go here: //////////"
+console.log(outputText);
+outputText = "original text (stretch goals): " + originalText;
 console.log(outputText);
 outputText = "Length of original the text is: " + originalText.split(" ").length;
 console.log(outputText);
