@@ -1,7 +1,10 @@
 var shortText = "";
 var truncateWords = function (longText, numWords) {
     var shortTextArray = longText.split(" ").splice(0, wordLimit);
+    shortTextArray.push('...');
 console.log(shortTextArray);
+    shortText = shortTextArray.join(' ');
+
 }
 var originalText = "There are two hard things in Computer Science: Cach invalidation, naming things, and off-by-one errors.";
 var wordLimit = 8;
