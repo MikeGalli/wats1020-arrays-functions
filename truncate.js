@@ -1,4 +1,4 @@
-var outputText === "";
+var outputText = "";
 outputText += originalText + '<br>' +
 "Orginial Word Count" + originalTextLength +
 "Final Word Count is: " + shortTextArray +
