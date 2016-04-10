@@ -9,7 +9,7 @@ var truncateWords = function (longText, numWords) {
     shortText = shortTextArray.join(' ');
     return shortText;
 }
-outputText += originalText + '<br>' +
+outputText += originalText + '<br>' + ffff;
 ffff = (originalText.split(' ').length);
 //"Final Word Count is: " + shortTextArray + '<br>'nnnnn
 //"Short Text " + shortText;
