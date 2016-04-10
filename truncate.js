@@ -19,4 +19,5 @@ console.log('shortText: ' + shortText);
 var outputText = "original Text: " + originalText;
 outputText = outputText + "Length of original the text is: " + originalText.split(" ").length;
 outputText = outputText + "The number of words to use is: " + wordLimit;
+outputText = outputText + "Here's the words that will be used: " + shortText;
 console.log(outputText);
