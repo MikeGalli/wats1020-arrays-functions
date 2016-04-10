@@ -16,5 +16,5 @@ var wordLimit = 8;
 var shortText = truncateWords(originalText, wordLimit);
 console.log('originalText: ' + originalText);
 console.log('shortText: ' + shortText);
-var outputText += "xxx" + originalText;
+var outputText = "xxx" + originalText;
 console.log(originalText);
