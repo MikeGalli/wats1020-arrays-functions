@@ -16,7 +16,23 @@
 // This portion of the script is meant to call and display the result of your Function.
 // You do not need to change the following lines, but you may change them if you
 // are experimenting further or pursuing stretch goals.
-var truncateWords = "";
+var truncateWords = function(longText, numWords) {
+  var shortTextArray = originalText.split(' ').splice(0, wordLimit)
+  console.log('Check_shortTextArray ' + shortTextArray);
+
+  shortTextArray.push('...');
+  console.log('Check_shortTextArray2 ' + shortTextArray);
+
+  shortText = shortTextArray.join(' ');
+  console.log("Check short str1 " + shortText);
+  shortText = shortText.slice(0,-4) + "...";
+  console.log("Check short str2 " + shortText);
+  return shortText;
+}
+
+var originalTextLength = originalText.split(' ').length;
+console.log('Original Text Length is ' + originalTextLength);
+
 var originalText = "There are two hard things in Computer Science: Cach invalidation, naming things, and off-by-one errors.";
 var wordLimit = 8;
 var shortText = truncateWords(originalText, wordLimit);
