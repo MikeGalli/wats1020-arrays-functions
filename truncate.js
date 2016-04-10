@@ -2,7 +2,7 @@ var shortText = "";
 var truncateWords = function (longText, numWords) {
     var shortTextArray = longText.split(" ").splice(0, wordLimit);
     shortTextArray.push('...');
-console.log(shortTextArray);
+console.log('shortTextArray: ' + shortTextArray);
     shortText = shortTextArray.join(' ');
     return shortText;
 
