@@ -1,3 +1,8 @@
+
+
+
+document.write("kljgadFKJHsdfkhjadsghjk")
+
 var truncateWords = function(longText, numWords) {
   var shortTextArray = originalText.split(' ').splice(0, wordLimit)
   console.log('Check_shortTextArray ' + shortTextArray);
