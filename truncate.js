@@ -8,7 +8,7 @@ var truncateWords = function (longText, numWords) {
 
 
 
-originalTextLength = originalText.split(" ").length;
+var originalTextLength = originalText.split(" ").length;
               console.log(originalTextLength);
 
 
