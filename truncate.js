@@ -19,10 +19,10 @@ console.log('shortText: ' + shortText);
 var outputText = "////////stretch goals start here: //////////"
 console.log(outputText);
 outputText = "original text: " + originalText;
-//console.log(outputText);
-outputText = outputText + "Length of the original text is: " + originalText.split(" ").length;
-//console.log(outputText);
-outputText = outputText + "The number of words to use is: " + wordLimit;
-//console.log(outputText);
-outputText = outputText + "Here's the string that will be used: " + shortText;
+
+outputText = outputText + " The length of the original text is: " + originalText.split(" ").length;
+
+outputText = outputText + " The number of words to use is: " + wordLimit;
+
+outputText = outputText + " Here's the string that will be created: " + shortText;
 console.log(outputText);
