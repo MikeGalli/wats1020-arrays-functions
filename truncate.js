@@ -9,8 +9,11 @@ var truncateWords = function (longText, numWords) {
     shortText = shortTextArray.join(' ');
     return shortText;
 }
-
-console.log(originalText.split(' ').length);
+outputText += originalText + '<br>' +
+"Original Word Count is: " + originalTextLength + '<br>'
+"Final Word Count is: " + shortTextArray + '<br>'
+"Short Text " + shortText;
+console.log(outputText);
 
 
 
