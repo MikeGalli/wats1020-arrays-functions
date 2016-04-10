@@ -1,3 +1,8 @@
+var outputText === "";
+outputText += originalText + '<br>' +
+"Orginial Word Count" + originalTextLength +
+"Final Word Count is: " + shortTextArray +
+"Short Text " + shortText;
 var truncateWords = function (longText, numWords) {
     var originalTextLength = longText.split(" ").length;
                 console.log("The Length of the orginial text is: " + originalTextLength);
@@ -7,7 +12,7 @@ var truncateWords = function (longText, numWords) {
     shortText = shortTextArray.join(' ');
     return shortText;
 }
-
+return outputText;
 
 
 
