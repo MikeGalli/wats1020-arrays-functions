@@ -7,4 +7,4 @@ var originalText = "There are two hard things in Computer Science: Cach invalida
 var wordLimit = 8;
 var shortText = truncateWords(originalText, wordLimit);
 console.log('originalText: ' + originalText);
-//console.log('shortText: ' + shortText);
+console.log('shortText: ' + shortText);
