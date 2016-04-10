@@ -8,7 +8,7 @@ var truncateWords = function(longText, numWords) {
   shortTextArray.push('...');
   console.log('Check_shortTextArray2 ' + shortTextArray);
 
-  shortText = shortTextArray.join(' ');
+  var shortText = shortTextArray.join(' ');
   console.log("Check short str1 " + shortText);
   shortText = shortText.slice(0,-4) + "...";
   console.log("Check short str2 " + shortText);
