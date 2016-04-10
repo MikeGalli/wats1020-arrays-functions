@@ -19,5 +19,5 @@ var originalText = "There are two hard things in Computer Science: Cach invalida
 var wordLimit = 8;
 console.log('originalText: ' + originalText);
 document.write('originalText: ' + originalText);
-console.log('shortText: ' + shortText);
+//console.log('shortText: ' + shortText);
 document.write('shortText: ' + shortText);
