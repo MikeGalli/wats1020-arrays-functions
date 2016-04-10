@@ -5,14 +5,11 @@ var truncateWords = function (longText, numWords) {
     shortText = shortTextArray.join(' ');
     return shortText;
 }
-var numWordsOrigText = originalText.split(' ').length;
-              console.log('The Number of Words in the Orginial Text is: ' + numWordsOrigText);
 
 
 
-
-
-
+originalTextLength = originalText.split(' ').length;
+              console.log(originalTextLength);
 
 
 var originalText = "There are two hard things in Computer Science: Cach invalidation, naming things, and off-by-one errors.";
