@@ -1,7 +1,7 @@
 var outputText = "";
 outputText += originalText + '<br>' +
-"Orginial Word Count is: " + originalTextLength + <br>
-"Final Word Count is: " + shortTextArray + <br>
+"Orginial Word Count is: " + originalTextLength + '<br>'
+"Final Word Count is: " + shortTextArray + '<br>'
 "Short Text " + shortText;
 var truncateWords = function (longText, numWords) {
     var originalTextLength = longText.split(" ").length;
