@@ -16,4 +16,5 @@
 // This portion of the script is meant to call and display the result of your Function.
 // You do not need to change the following lines, but you may change them if you
 // are experimenting further or pursuing stretch goals.
-console.log("98609860i9^G&&^(^)(&^&(&(*(&(&(^&%&$^##))))))")
+console.log("98609860i9^G&&^(^)(&^&(&(*(&(&(^&%&$^##))))))");
+document.write("what the ^%&%$^&%&$&$&$$&");
