@@ -1,5 +1,3 @@
-var outputText = "";
-
 var truncateWords = function (longText, numWords) {
     var originalTextLength = longText.split(" ").length;
                 console.log("The Length of the orginial text is: " + originalTextLength);
@@ -18,3 +16,5 @@ var wordLimit = 8;
 var shortText = truncateWords(originalText, wordLimit);
 console.log('originalText: ' + originalText);
 console.log('shortText: ' + shortText);
+var outputText += "xxx" + originalText;
+console.log(originalText);
