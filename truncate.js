@@ -10,7 +10,7 @@ var truncateWords = function (longText, numWords) {
     return shortText;
 }
 outputText += originalText + '<br>' +
-"Original Word Count is: " + originalTextLength + '<br>'
+"Original Word Count is: " + originalText.split(" ").length; + '<br>'
 //"Final Word Count is: " + shortTextArray + '<br>'
 //"Short Text " + shortText;
 console.log(outputText);
