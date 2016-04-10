@@ -1,8 +1,5 @@
 var outputText = "";
-outputText += originalText + '<br>' +
-"Orginial Word Count is: " + originalTextLength + '<br>'
-"Final Word Count is: " + shortTextArray + '<br>'
-"Short Text " + shortText;
+
 var truncateWords = function (longText, numWords) {
     var originalTextLength = longText.split(" ").length;
                 console.log("The Length of the orginial text is: " + originalTextLength);
@@ -12,6 +9,10 @@ var truncateWords = function (longText, numWords) {
     shortText = shortTextArray.join(' ');
     return shortText;
 }
+outputText += originalText + '<br>' +
+"Original Word Count is: " + originalTextLength + '<br>'
+"Final Word Count is: " + shortTextArray + '<br>'
+"Short Text " + shortText;
 console.log(outputText);
 
 
