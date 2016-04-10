@@ -1,6 +1,6 @@
 var truncateWords = function (longText, numWords) {
     var originalTextLength = longText.split(" ").length;
-                console.log(originalTextLength);
+                console.log("The Length of the orginial text is: " + originalTextLength);
     var shortTextArray = longText.split(" ").splice(0, wordLimit);
     shortTextArray.push('...');
               console.log('shortTextArray: ' + shortTextArray);
